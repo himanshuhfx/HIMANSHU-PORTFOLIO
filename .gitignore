@@ -1,0 +1,15 @@
+.DS_Store
+**/.DS_Store
+
+# Keep the optimized web photography gallery, but skip raw camera/source files.
+assets/photography/*
+!assets/photography/web/
+!assets/photography/web/**
+assets/photography/web/photo-4.jpg
+assets/photography/web/photo-6.jpg
+assets/photography/web/photo-43.jpg
+assets/photography/web/photo-46.jpg
+assets/photography/web/*.mov
+
+# Local/temporary files
+*.log
